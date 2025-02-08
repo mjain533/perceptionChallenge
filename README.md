@@ -3,7 +3,7 @@
 ## answer.png
 Below is the output image with boundary lines drawn, saved as `answer.png`:
 
-![answer.png](link-to-your-image)
+![answer.png](answer.png)
 
 ## Methodology
 1. **Load Image:** Use OpenCV to load the input image.
