@@ -111,7 +111,7 @@ def main():
     image = drawline(image, (left[len(left)-1],y[0]), (left[0],y[len(y)-1]), (0, 0, 255), 5)
     image = drawline(image, (right[0],y[0]), (right[len(right)-1],y[len(y)-1]), (0, 0, 255), 5)
     image = resize_image(image, width=200, height=200)
-    show_image(image)
+    cv2.imwrite('answer.png',image)
 
 if __name__ == "__main__":
     main()
